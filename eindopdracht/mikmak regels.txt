@@ -1,0 +1,40 @@
+Regels: speler die het laagste gooit drinkt afgesproken aantal slokken, tenzij er 21, 31, 32, 44, 54, 64 of 66 wordt gegooid.
+
+
+11 = 100
+21 = mikmak: andere spelers gooien ieder 1 keer, laagste van aantal spelers drinkt, tenzij 21, 31, 32 of 54 gegooid wordt (switch)
+22 = 200
+31 = persoon links van speler moet drinken
+32 = vast: speler gooit 3 x, vervolgens resetten en verder naar volgende speler.bij het gooien van combinatie met één 2 die 2 laten liggen voor volgende worp.
+bij gooien van 31 wordt de 1 een 2 bij de volgende worp.bij gooien 21 + 1 mikmak.bij gooien 32 staat speler aan de beurt vast, proces begint weer opnieuw.
+als beurt weer is aan persoon die vast staat, drinkt hij aantal mikmaks(1 mikmak = half glas) (switch)
+33 = 300
+41 = 41
+42 = 42
+43 = 43
+44 = speler drinkt helft eigen glas op
+51 = 51
+52 = 52
+53 = 53
+54 = persoon rechts van speler moet drinken
+55 = 500
+61 = 61
+62 = 62
+63 = 63
+64 = Laatste speler die "Jack in the Box"
+roept
+moet drinken
+65 = 65
+66 = 600, speler mag persoon kiezen die een half glas moet drinken
+
+-------------------wissels-------------
+
+var wissel;
+if wissel--0, wissel==1
+
+function thirtyTwo
+if (ogen == 1 || ogen2 == 1):
+wissel -1
+if wissel == 0, ogen === 2
+
+
