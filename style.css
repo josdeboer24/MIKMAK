@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+body h1{
+  margin-top: 5em;
+  font-size: calc(1em + 1.2vw);
+}
+body label{
+    display: block;
+    align-self: center;
+    padding: 0em 0em .5em 2.5em;
+    margin-top: 1em;    
+    font-size: calc(.75em + 1vw);
+}
+
+body .text{
+    display: block;
+    width: 15em;
+    font-size: calc(.5em + .75vw);
+    padding: .2em;
+}
+
+body .button{
+    display: block;
+    width: 15.4em;
+    margin-top: 1em;
+    font-size: calc(.5em + .75vw);
+    font-weight: bold;
+    padding: .5em;
+    border: .2em solid white;
+    background-color: seagreen;
+    color: white;
+}
+
+@media (max-width:400px){
+    body h1{
+    margin-top: 10em;
+    }
+}

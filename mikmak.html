@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>MikMak</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>MIKMAK</h1>
+	<h2>Aantal spelers:</h2>
+	<form action="dobbelsteen.js" method="get">
+		<input type="number" id="nummer" value="" min="2" max="10">
+		<input type="button" value="verstuur" id="send">
+	</form>
+	<h3>MikMak's: 0</h3>
+	<h4>er staat niemand vast</h4>
+	<p id="test"></p>
+	<img src="images/questionmark.png" alt="?">
+	<img id='2' src="images/questionmark.png" alt="?">
+	<form action="dobbelsteen.js" method="get">
+		<input type="button" value="gooi" id="gooi">
+	</form>
+	<p></p>
+	<p id="start">klik op dobbelstenen om te starten</p>
+
+	<script src=dobbelsteen.js></script>
+</body>
+
+
+</html>
